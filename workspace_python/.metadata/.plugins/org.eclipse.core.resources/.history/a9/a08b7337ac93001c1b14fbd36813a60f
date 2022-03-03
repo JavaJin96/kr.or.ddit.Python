@@ -1,0 +1,3 @@
+class LeeJY():
+    def __init__(self):
+        self.money = 100_000_000_000

@@ -1,0 +1,13 @@
+
+num1, num2 = input().split()
+
+temp = bool(int(num1)) and bool(int(num2))
+
+if temp == False :
+    print(True)
+elif temp == True:
+    print(False)
+    
+    
+    
+    

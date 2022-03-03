@@ -1,0 +1,5 @@
+class LeeJY():
+    def __init__(self):
+        self.money = 100000000000
+    def dirtymoney(self, amount):
+        self.money += amount

@@ -1,0 +1,5 @@
+def showNum():
+    pass
+
+if __name == "__main__":
+    shownum()

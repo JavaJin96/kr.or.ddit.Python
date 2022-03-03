@@ -1,0 +1,14 @@
+class Animal :
+    def __init__(self):
+        self.age = 0 
+    
+    def eatAge(self):
+        self.age += 1;
+    
+
+
+a = Animal()
+print(a.age)
+
+a.eatAge()
+print(a.age)

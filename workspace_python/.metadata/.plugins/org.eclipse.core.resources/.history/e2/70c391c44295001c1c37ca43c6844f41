@@ -1,0 +1,16 @@
+
+
+num1, num2, num3 = input().split()
+
+
+if int(num1)%2 == 0 :
+    print(even)
+if int(num2)%2 == 0 :
+    print(num2)
+if int(num3)%2 == 0 :
+    print(num3)
+
+
+
+
+

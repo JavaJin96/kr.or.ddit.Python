@@ -1,0 +1,11 @@
+class Animal :
+    age = 0 
+    
+    def eatAge(self):
+        global age
+        age += 1
+    
+
+
+Animal.eatAge(1)
+print(age)

@@ -1,0 +1,20 @@
+
+
+num1, num2, num3 = input().split()
+
+
+if int(num1)%2 == 0 :
+    print("even")
+else :
+    print("odd")
+if int(num2)%2 == 0 :
+    print("even")
+else :
+    print("odd")
+if int(num3)%2 == 0 :
+    print(num3)
+
+
+
+
+

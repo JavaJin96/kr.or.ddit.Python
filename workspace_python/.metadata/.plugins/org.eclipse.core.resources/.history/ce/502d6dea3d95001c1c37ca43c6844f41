@@ -1,0 +1,9 @@
+
+
+num1, num2, num3 = input().split()
+
+
+
+
+print((num1 if int(num1) < int(num2) else num2) if (num1 if int(num1) > int(num3) else num3) else int(num3))
+

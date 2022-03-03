@@ -1,0 +1,13 @@
+package day03;
+
+public class OopTest {
+
+	public static void main(String[] args) {
+		Animal ani = new Human();
+		System.out.println(ani.age);
+		System.out.println(ani.ski);
+		ani.eatAge();
+		System.out.println(ani.age);
+	}
+
+}

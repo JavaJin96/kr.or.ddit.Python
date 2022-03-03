@@ -1,0 +1,5 @@
+package day04;
+
+public class Messi {
+	int level_soccer = 10;
+}

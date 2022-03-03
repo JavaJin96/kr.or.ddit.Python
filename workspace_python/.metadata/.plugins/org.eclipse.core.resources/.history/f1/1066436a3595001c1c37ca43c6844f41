@@ -1,0 +1,12 @@
+
+num1, num2 = input().split()
+
+if bool(int(num1)) and bool(int(num2)) == False :
+    print(True)
+else :
+    print(False)
+    
+    
+    
+    
+print("식별자",bool(int(num1)) and bool(int(num2)))

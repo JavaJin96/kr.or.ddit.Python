@@ -1,0 +1,5 @@
+
+
+num1, num2 = input().split()
+
+print(num1 if int(num1) > int(num2) else num2)

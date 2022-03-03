@@ -1,0 +1,4 @@
+
+
+num1 = input()
+print(bool(int(num1)))

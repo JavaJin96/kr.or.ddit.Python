@@ -1,0 +1,18 @@
+# 가위 바위 보
+import random
+
+# 가위 1 / 바위 2 / 보 3
+
+
+def showdown (user):
+    result = "";
+    rnd = int(3*random.random())
+    
+    if user == rnd :
+        result = "비겼습니다."
+        
+    if user == 1 :
+        if rnd == 3 :
+        result = "이겼습니다."
+        elif rnd == 2 :
+        result = "졌습니다."

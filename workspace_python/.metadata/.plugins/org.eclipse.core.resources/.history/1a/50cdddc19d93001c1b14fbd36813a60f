@@ -1,0 +1,9 @@
+package day03;
+
+public class Human {
+	int age = 0;
+	
+	public void eatAge() {
+		age++;
+	}
+}

@@ -1,0 +1,23 @@
+class Animal :
+    def __init__(self):
+        print("생성자")
+        self.age = 0 
+    
+    def eatAge(self):
+        self.age += 1;
+    
+    def __del__(self):
+        print("소멸자")
+
+class Human :
+    def __init__(self):
+        print("생성자")
+        self.skill_lang = 0
+
+
+if __name__ == "__main__":
+    a = Animal()
+    print(a.age)
+
+    a.eatAge()
+    print(a.age)

@@ -1,0 +1,6 @@
+
+
+a = Animal()
+print(a.age)
+a.eatAge()
+print(a.age)

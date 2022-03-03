@@ -1,0 +1,5 @@
+package application;
+
+public class th1 extends Thread{
+
+}

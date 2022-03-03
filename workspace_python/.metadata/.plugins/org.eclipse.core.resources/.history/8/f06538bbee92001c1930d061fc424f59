@@ -1,0 +1,10 @@
+# 가위 바위 보
+
+# 가위 1 / 바위 2 / 보 3
+
+
+def showdown (user, com):
+    result = "";
+    if user == com :
+        result = "비겼습니다."
+    else if 

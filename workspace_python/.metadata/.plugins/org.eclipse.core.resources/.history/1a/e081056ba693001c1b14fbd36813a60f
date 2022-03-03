@@ -1,0 +1,4 @@
+from day03.animal import Animal
+
+
+a = Animal()

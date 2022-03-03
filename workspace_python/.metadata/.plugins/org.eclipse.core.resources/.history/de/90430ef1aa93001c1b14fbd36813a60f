@@ -1,0 +1,5 @@
+package day04;
+
+public class LeeJY {
+	public Long money = 100000000000;
+}

@@ -1,0 +1,6 @@
+class Animal :
+    global age 
+    
+    def eatAge(self):
+        age += 1
+    

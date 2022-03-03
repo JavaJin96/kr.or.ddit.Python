@@ -1,0 +1,6 @@
+from day03.animal import Animal
+
+
+a = Animal()
+print(a.age)
+print(a.eatAge())
